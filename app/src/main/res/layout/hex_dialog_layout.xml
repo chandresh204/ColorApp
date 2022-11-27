@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <TextView android:layout_width="wrap_content"
+              android:text="Please enter color value, This is a six digit hexadecimal number. characters available are 0 to 9 and a to f"
+              android:layout_gravity="center"
+              android:id="@+id/dialogText"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"/>
+    <EditText android:layout_width="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:ems="4"
+              android:textSize="25dp"
+              android:id="@+id/hexEditText"
+              android:layout_height="wrap_content"/>
+</LinearLayout>
